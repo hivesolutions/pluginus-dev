@@ -1,0 +1,18 @@
+{
+    "name": "Pluginus devtools",
+    "description": "Simple plugin for the diagnostics of Pluginus.",
+    "version": "0.1.0",
+    "author": "Hive Solutions",
+    "minimum_chrome_version": "10.0",
+    "manifest_version": 2,
+    "devtools_page": "devtools.html",
+    "background": {
+        "scripts": ["js/background.js"]
+    },
+    "icons": {
+        "512": "images/icon.png"
+    },
+    "permissions": [
+        "<all_urls>", "activeTab"
+    ]
+}
